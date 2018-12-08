@@ -1,7 +1,6 @@
 package com.ystu.controllers;
 
 import com.ystu.entities.User;
-import com.ystu.main.Main;
 import com.ystu.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
