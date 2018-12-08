@@ -12,11 +12,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan(basePackages = "com.ystu.entities")
 public class Main extends SpringBootServletInitializer {
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(Main.class);
-    }
-
     public static void main(String args[]) {
         SpringApplication.run(Main.class, args);
     }
